@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.space {
+  background-image: url("space.png");
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+}
+
+.planet-area {
+  position: absolute;
+  width:40%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+}
+
+.planet {
+  position: relative;
+  bottom: -8px;
+  left: -2px;
+  height: 500px;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 220px;
+  height: 200px;
+  left: 250px;
+  overflow: hidden;
+  transform: rotate(30deg);
+}
